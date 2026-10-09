@@ -2,6 +2,20 @@
 
 Esta es la estructura base que vas a usar como punto de partida para tu proyecto en este programa. Es la misma estructura que vas a ir ampliando bloque a bloque, hasta llegar a la aplicación completa que entregas en el Gate 3.
 
+## Ejemplo: Gemini desde la terminal
+
+Con `API_KEY` configurada en `.env`, ejecuta desde la raíz del proyecto:
+
+```bash
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+python src/chat_gemini.py "Explícame qué es una variable en Python"
+```
+
+Para conversar, ejecuta `python src/chat_gemini.py` sin una pregunta. Escribe `salir` para terminar.
+
+Revisa el [instructivo paso a paso](docs/instructivo_gemini.md) y el [código comentado](src/chat_gemini.py).
+
 ## Cómo empezar
 
 Estos pasos se completan de forma progresiva a lo largo de la Unidad U1.2, no todos el mismo día:
